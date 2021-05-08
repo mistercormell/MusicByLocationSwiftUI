@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("\(location.lastKnownLocation?.coordinate.latitude ?? 0.0)")
+            Text(location.lastKnownLocation)
                 .padding()
             Spacer()
             Button("Find Music", action: {

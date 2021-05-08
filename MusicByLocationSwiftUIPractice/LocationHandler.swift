@@ -10,7 +10,7 @@ import CoreLocation
 
 class LocationHandler: NSObject, CLLocationManagerDelegate, ObservableObject {
     let manager = CLLocationManager()
-    @Published var lastKnownLocation: CLLocation?
+    @Published var lastKnownLocation: String = ""
     
     override init() {
         super.init()
@@ -26,11 +26,15 @@ class LocationHandler: NSObject, CLLocationManagerDelegate, ObservableObject {
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        lastKnownLocation = locations.first
+        if let coordinates = locations.first?.coordinate {
+            lastKnownLocation = "\(coordinates.latitude)"
+        } else {
+            lastKnownLocation = "No location Found"
+        }
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print(error.localizedDescription)
+        lastKnownLocation = "Error finding location"
     }
     
 }
