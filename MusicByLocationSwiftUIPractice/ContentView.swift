@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    let location = LocationHandler()
+    @StateObject private var location = LocationHandler()
     
     var body: some View {
         VStack {
-            Text("Hello, world!")
+            Text("\(location.lastKnownLocation?.coordinate.latitude ?? 0.0)")
                 .padding()
             Spacer()
-            Button("Find Music", action: {})
+            Button("Find Music", action: {
+                location.manager.requestLocation()
+            })
         }.onAppear(perform: location.requestAuthorisation)
     }
 }
