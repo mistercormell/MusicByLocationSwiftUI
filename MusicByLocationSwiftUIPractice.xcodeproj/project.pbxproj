@@ -13,6 +13,7 @@
 		B4512339264681DE00C58FB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4512338264681DE00C58FB6 /* Preview Assets.xcassets */; };
 		B4512344264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4512343264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeTests.swift */; };
 		B451234F264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451234E264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeUITests.swift */; };
+		B4512360264682F500C58FB6 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451235F264682F500C58FB6 /* LocationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B451234A264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicByLocationSwiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B451234E264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationSwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		B4512350264681DF00C58FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B451235F264682F500C58FB6 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B4512335264681DE00C58FB6 /* Assets.xcassets */,
 				B451233A264681DE00C58FB6 /* Info.plist */,
 				B4512337264681DE00C58FB6 /* Preview Content */,
+				B451235F264682F500C58FB6 /* LocationHandler.swift */,
 			);
 			path = MusicByLocationSwiftUIPractice;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4512360264682F500C58FB6 /* LocationHandler.swift in Sources */,
 				B4512334264681DC00C58FB6 /* ContentView.swift in Sources */,
 				B4512332264681DC00C58FB6 /* MusicByLocationSwiftUIPracticeApp.swift in Sources */,
 			);
