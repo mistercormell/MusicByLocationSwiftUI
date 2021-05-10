@@ -18,6 +18,7 @@
 		B48749B5264933A400F06EF8 /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48749B4264933A400F06EF8 /* CLPlacemark.swift */; };
 		B48749C626493D9600F06EF8 /* ArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48749C526493D9600F06EF8 /* ArtistResponse.swift */; };
 		B48749CB26493DA100F06EF8 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48749CA26493DA100F06EF8 /* Artist.swift */; };
+		B48749E726494A2E00F06EF8 /* ITunesAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48749E626494A2E00F06EF8 /* ITunesAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B48749B4264933A400F06EF8 /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
 		B48749C526493D9600F06EF8 /* ArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponse.swift; sourceTree = "<group>"; };
 		B48749CA26493DA100F06EF8 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		B48749E626494A2E00F06EF8 /* ITunesAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				B4512337264681DE00C58FB6 /* Preview Content */,
 				B451235F264682F500C58FB6 /* LocationHandler.swift */,
 				B48749AE26492F5A00F06EF8 /* StateController.swift */,
+				B48749E626494A2E00F06EF8 /* ITunesAdaptor.swift */,
 			);
 			path = MusicByLocationSwiftUIPractice;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4512360264682F500C58FB6 /* LocationHandler.swift in Sources */,
+				B48749E726494A2E00F06EF8 /* ITunesAdaptor.swift in Sources */,
 				B48749AF26492F5A00F06EF8 /* StateController.swift in Sources */,
 				B4512334264681DC00C58FB6 /* ContentView.swift in Sources */,
 				B4512332264681DC00C58FB6 /* MusicByLocationSwiftUIPracticeApp.swift in Sources */,
