@@ -14,6 +14,7 @@
 		B4512344264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4512343264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeTests.swift */; };
 		B451234F264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451234E264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeUITests.swift */; };
 		B4512360264682F500C58FB6 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451235F264682F500C58FB6 /* LocationHandler.swift */; };
+		B48749AF26492F5A00F06EF8 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48749AE26492F5A00F06EF8 /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B451234E264681DF00C58FB6 /* MusicByLocationSwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationSwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		B4512350264681DF00C58FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B451235F264682F500C58FB6 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		B48749AE26492F5A00F06EF8 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B451233A264681DE00C58FB6 /* Info.plist */,
 				B4512337264681DE00C58FB6 /* Preview Content */,
 				B451235F264682F500C58FB6 /* LocationHandler.swift */,
+				B48749AE26492F5A00F06EF8 /* StateController.swift */,
 			);
 			path = MusicByLocationSwiftUIPractice;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4512360264682F500C58FB6 /* LocationHandler.swift in Sources */,
+				B48749AF26492F5A00F06EF8 /* StateController.swift in Sources */,
 				B4512334264681DC00C58FB6 /* ContentView.swift in Sources */,
 				B4512332264681DC00C58FB6 /* MusicByLocationSwiftUIPracticeApp.swift in Sources */,
 			);
