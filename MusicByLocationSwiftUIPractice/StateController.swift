@@ -12,11 +12,11 @@ class StateController: ObservableObject {
     let locationHandler: LocationHandler = LocationHandler()
     
     func findMusic() {
-        locationHandler.stateController = self
         locationHandler.updateLocation()
     }
     
     func requestAccessToLocationData() {
+        locationHandler.stateController = self
         locationHandler.requestAuthorisation()
     }
     
