@@ -18,7 +18,10 @@ struct ContentView: View {
             Button("Find Music", action: {
                 state.findMusic()
             })
-        }.onAppear(perform: state.requestAccessToLocationData)
+        }.onAppear(perform: {
+            state.requestAccessToLocationData()
+            state.getArtists()
+        })
     }
 }
 
